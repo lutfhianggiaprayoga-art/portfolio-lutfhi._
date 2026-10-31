@@ -1,0 +1,513 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080D1A">
+    <meta name="description" content="Portofolio pribadi Lutfhi — web developer dan pengelola sistem informasi.">
+    <title>Portofolio | Lutfhi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- INTRO -->
+    <section class="intro" id="intro">
+        <div class="intro-glow"></div>
+        <div class="welcome-photo"></div>
+        <div class="welcome-shade"></div>
+        <div class="particles" id="particles"></div>
+
+        <div class="welcome-content">
+            <div class="welcome-top">
+                <span class="welcome-line"></span>
+                PERSONAL PORTFOLIO
+                <span class="welcome-line"></span>
+            </div>
+
+            <div class="welcome-label">
+                <span class="welcome-dot"></span>
+                WELCOME TO MY WORLD
+            </div>
+
+            <h1 class="welcome-title"><span class="welcome-outline">PORTO</span><span class="gold">FOLIO.</span></h1>
+
+            <div class="welcome-divider"></div>
+
+            <p class="welcome-description">
+                Halo, Saya <strong>Lutfhi</strong>.
+                <span>Selamat datang di ruang digital Saya, tempat ide, kreativitas, dan teknologi bertemu.</span>
+            </p>
+
+            <button class="enter-btn" id="enterBtn" type="button">
+                <span class="enter-circle" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M5 12h14M13 6l6 6-6 6"/>
+                    </svg>
+                </span>
+                <span class="enter-text">
+                    <strong>ENTER TO EXPLORE</strong>
+                    <small>Kenali saya lebih dekat</small>
+                </span>
+            </button>
+        </div>
+
+        <div class="welcome-index">
+            <span>01</span>
+            <span class="index-line"></span>
+            <span>WELCOME</span>
+        </div>
+    </section>
+
+    <!-- MAIN WEBSITE -->
+    <div id="mainContent">
+
+        <!-- NAVIGATION -->
+        <nav class="navbar">
+            <a href="#home" class="brand">LUTFHI ANGGIA PRAYOGA<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle" type="button" aria-label="Buka menu" aria-expanded="false">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+
+            <a href="https://wa.me/6285742343058?text=Halo%20Lutfhi,%20saya%20tertarik%20menghubungi%20Anda."
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn-primary">
+    Hubungi Saya <span>↗</span>
+</a>
+
+        </nav>
+
+        <!-- HERO -->
+        <main>
+            <section class="hero" id="home">
+                <div class="hero-text reveal">
+                    <div class="hero-greeting">HALO, KENALAN YUK</div>
+
+                    <h1>Lutfhi<br>Anggia Prayoga<span style="color:var(--accent)">.</span></h1>
+
+                    <h2>
+                        <span>Web Developer</span> &amp; Problem Solver
+                    </h2>
+
+                    <p class="hero-description">
+                        Saya suka membangun website yang bukan cuma menarik secara visual,
+                        tetapi juga fungsional dan membantu menyelesaikan masalah nyata.
+                        Di sini lu bisa melihat perjalanan, keahlian, dan proyek yang pernah gue kerjakan.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="button button-primary">
+                            Lihat Proyek Saya ↗
+                        </a>
+                        <a href="#about" class="button button-secondary">
+                            Kenali Saya
+                        </a>
+                    </div>
+
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Terus belajar, terus berkembang
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal reveal-delay-2">
+                    <div class="portrait-wrapper">
+                        <div class="portrait-decoration"></div>
+
+                        <div class="portrait-frame">
+                            <img src="images/foto gua.jpeg" alt="Foto Lutfhi" onerror="this.style.display='none'">
+                        </div>
+
+                        <div class="portrait-decoration-bottom"></div>
+
+                        <div class="floating-note">
+                            <div class="note-icon">⌘</div>
+                            <div class="note-content">
+                                <strong>Build. Create. Improve.</strong>
+                                <span>Turning ideas into digital solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="section about-section" id="about">
+                <div class="container about-grid">
+                    <div class="about-heading reveal">
+                        <div class="eyebrow">TENTANG SAYA</div>
+                        <h2 class="section-title">
+                            Bukan Cuma<br>
+                            <span class="outline-text">Sekadar Kode.</span>
+                        </h2>
+                    </div>
+
+                    <div class="about-content reveal reveal-delay-1">
+                        <p>
+                            Saya adalah lulusan Universitas Teknokrat Indonesia dengan ipk 3.51 (Cumlaude) dan saya seseorang yang tertarik dengan dunia teknologi,
+                            pengembangan website, dan sistem informasi. Saya senang belajar
+                            hal baru dan mencoba mengubah ide menjadi sesuatu yang bisa digunakan.
+                        </p>
+
+                        <p>
+                            Dalam proses belajar, saya pernah mengerjakan beberapa proyek,
+                            mulai dari <strong>website absensi sekolah</strong>,
+                            sistem kartu peserta, aplikasi keuangan, hingga toko online.
+                        </p>
+
+                        <p>
+                            Buat saya, setiap proyek adalah kesempatan untuk meningkatkan
+                            kemampuan, mencari solusi, dan menghasilkan sesuatu yang lebih baik.
+                        </p>
+
+                        <div class="about-details">
+                            <div class="about-detail">
+                                <small>Fokus</small>
+                                <span>Web Development</span>
+                            </div>
+
+                            <div class="about-detail">
+                                <small>Minat</small>
+                                <span>Teknologi &amp; Sistem Informasi</span>
+                            </div>
+
+                            <div class="about-detail">
+                                <small>Prinsip</small>
+                                <span>Belajar &amp; Berkembang</span>
+                            </div>
+
+                            <div class="about-detail">
+                                <small>Tujuan</small>
+                                <span>Membuat Solusi Digital</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section class="section skills-section" id="skills">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <div class="eyebrow">APA YANG SAYA KERJAKAN</div>
+                        <h2 class="section-title">
+                            Keahlian &amp; <span class="outline-text">Kemampuan.</span>
+                        </h2>
+                        <p class="section-description">
+                            Beberapa kemampuan yang saya pelajari dan gunakan
+                            dalam mengembangkan proyek digital.
+                        </p>
+                    </div>
+
+                    <div class="skills-grid">
+                        <article class="skill-card reveal">
+                            <div class="skill-icon">&lt;/&gt;</div>
+                            <h3>Web Development</h3>
+                            <p>
+                                Membangun website dengan tampilan yang responsif,
+                                struktur yang rapi, dan fitur sesuai kebutuhan.
+                            </p>
+                            <div class="skill-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                            </div>
+                        </article>
+
+                        <article class="skill-card reveal reveal-delay-1">
+                            <div class="skill-icon">▤</div>
+                            <h3>Database Management</h3>
+                            <p>
+                                Mengelola data aplikasi, menyusun tabel,
+                                dan menghubungkan website dengan database.
+                            </p>
+                            <div class="skill-tags">
+                                <span>MySQL</span>
+                                <span>phpMyAdmin</span>
+                                <span>XAMPP</span>
+                            </div>
+                        </article>
+
+                        <article class="skill-card reveal reveal-delay-2">
+                            <div class="skill-icon">⌘</div>
+                            <h3>Administrasi Digital</h3>
+                            <p>
+                                Mengolah data, menyusun dokumen, dan membantu
+                                pekerjaan administrasi menggunakan perangkat digital.
+                            </p>
+                            <div class="skill-tags">
+                                <span>Microsoft Excel</span>
+                                <span>Microsoft Word</span>
+                                <span>Data Entry</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROJECTS -->
+            <section class="section projects-section" id="projects">
+                <div class="container">
+                    <div class="projects-heading reveal">
+                        <div>
+                            <div class="eyebrow">HASIL KARYA</div>
+                            <h2>Proyek <span>Pilihan.</span></h2>
+                        </div>
+                        <p>
+                            Beberapa proyek yang saya kerjakan dalam perjalanan
+                            belajar dan mengembangkan kemampuan.
+                        </p>
+                    </div>
+
+                    <div class="projects-grid">
+
+                        <article class="project-card reveal">
+                            <div class="project-image">
+                                <img src="images/absensi.png" alt="Tampilan website absensi sekolah" loading="lazy">
+                                <span class="project-number">PROJECT 01</span>
+                            </div>
+                            <div class="project-type">WEB APPLICATION</div>
+                            <h3 class="project-title">Sistem Absensi Sekolah</h3>
+                            <p class="project-description">
+                                Website untuk membantu pengelolaan data siswa,
+                                kelas, guru, dan pencatatan kehadiran secara digital.
+                            </p>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>HTML &amp; CSS</span>
+                            </div>
+                            <div class="project-footer">
+                                <span class="project-link">School Attendance System</span>
+                                <span class="project-arrow">↗</span>
+                            </div>
+                        </article>
+
+                        <article class="project-card reveal reveal-delay-1">
+                            <div class="project-image">
+                                <img src="images/kartu-peserta.png" alt="Tampilan website kartu peserta" loading="lazy">
+                                <span class="project-number">PROJECT 02</span>
+                            </div>
+                            <div class="project-type">ADMINISTRATION SYSTEM</div>
+                            <h3 class="project-title">Sistem Kartu Peserta</h3>
+                            <p class="project-description">
+                                Aplikasi pengelolaan data peserta yang dirancang
+                                untuk membantu proses pembuatan dan pencetakan kartu.
+                            </p>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>Excel</span>
+                                <span>Database</span>
+                            </div>
+                            <div class="project-footer">
+                                <span class="project-link">Participant Card System</span>
+                                <span class="project-arrow">↗</span>
+                            </div>
+                        </article>
+
+                        <article class="project-card reveal">
+                            <div class="project-image">
+                                <img src="images/keuangan.png" alt="Tampilan aplikasi keuangan" loading="lazy">
+                                <span class="project-number">PROJECT 03</span>
+                            </div>
+                            <div class="project-type">FINANCIAL APPLICATION</div>
+                            <h3 class="project-title">Aplikasi Keuangan</h3>
+                            <p class="project-description">
+                                Aplikasi untuk mencatat transaksi, memantau saldo,
+                                dan membantu pengguna mengelola keuangan secara teratur.
+                            </p>
+                            <div class="project-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Dashboard</span>
+                            </div>
+                            <div class="project-footer">
+                                <span class="project-link">Personal Finance App</span>
+                                <span class="project-arrow">↗</span>
+                            </div>
+                        </article>
+
+                        <article class="project-card reveal reveal-delay-1">
+                            <div class="project-image">
+                                <img src="images/toko-online.png" alt="Tampilan website toko online" loading="lazy">
+                                <span class="project-number">PROJECT 04</span>
+                            </div>
+                            <div class="project-type">E-COMMERCE WEBSITE</div>
+                            <h3 class="project-title">Toko Online LUTFHI</h3>
+                            <p class="project-description">
+                                Konsep website toko online dengan desain streetwear,
+                                tampilan produk, dan antarmuka keranjang belanja.
+                            </p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-footer">
+                                <span class="project-link">Online Store</span>
+                                <span class="project-arrow">↗</span>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTACT -->
+            <section class="contact-section" id="contact">
+                <div class="container contact-inner reveal">
+                    <div class="eyebrow">ADA IDE ATAU PROYEK?</div>
+
+                    <h2>
+                        Mari Bikin Sesuatu<br>
+                        <span>Yang Keren.</span>
+                    </h2>
+
+                    <p>
+                        Punya ide, ingin berdiskusi, atau tertarik bekerja sama?
+                        Saya terbuka untuk ngobrol dan mengeksplorasi kemungkinan baru.
+                    </p>
+
+                    <!-- Ganti alamat email di bawah dengan email aktif lu -->
+                    <!-- TOMBOL HUBUNGI SAYA -->
+<a href="https://wa.me/6285742343058?text=Halo%20Lutfhi,%20saya%20tertarik%20menghubungi%20Anda."
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn-primary">
+    Hubungi Saya <span>↗</span>
+</a>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-inner">
+                <p>© <span id="year"></span> <span>Lutfhi.</span> Dibuat dengan semangat belajar.</p>
+
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">Tentang</a>
+                    <a href="#projects">Proyek</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+        // Tahun otomatis
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        // Menu navigasi mobile
+        const menuToggle = document.getElementById("menuToggle");
+        const navLinks = document.getElementById("navLinks");
+
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener("click", function () {
+                const isOpen = navLinks.classList.toggle("open");
+                menuToggle.setAttribute("aria-expanded", String(isOpen));
+                menuToggle.textContent = isOpen ? "✕" : "☰";
+            });
+
+            navLinks.querySelectorAll("a").forEach(function (link) {
+                link.addEventListener("click", function () {
+                    navLinks.classList.remove("open");
+                    menuToggle.setAttribute("aria-expanded", "false");
+                    menuToggle.textContent = "☰";
+                });
+            });
+        }
+
+        // Animasi elemen ketika terlihat
+        const revealElements = document.querySelectorAll(".reveal");
+
+        if ("IntersectionObserver" in window) {
+            const revealObserver = new IntersectionObserver(function (entries) {
+                entries.forEach(function (entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("active");
+                        revealObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+
+            revealElements.forEach(function (element) {
+                revealObserver.observe(element);
+            });
+        } else {
+            revealElements.forEach(function (element) {
+                element.classList.add("active");
+            });
+        }
+
+        // Tombol masuk ke halaman utama
+        const enterBtn = document.getElementById("enterBtn");
+        const intro = document.getElementById("intro");
+        const mainContent = document.getElementById("mainContent");
+
+        function enterPortfolio() {
+            if (!intro || !mainContent || intro.classList.contains("hide")) {
+                return;
+            }
+
+            intro.classList.add("hide");
+            mainContent.classList.add("visible");
+
+            setTimeout(function () {
+                intro.style.display = "none";
+            }, 950);
+        }
+
+        if (enterBtn) {
+            enterBtn.addEventListener("click", enterPortfolio);
+        }
+
+        // Tekan Escape untuk melewati intro
+        document.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                enterPortfolio();
+            }
+        });
+
+        // Partikel dekoratif
+        const particlesContainer = document.getElementById("particles");
+
+        if (particlesContainer) {
+            for (let i = 0; i < 55; i++) {
+                const particle = document.createElement("span");
+                particle.className = "particle";
+                particle.style.left = Math.random() * 100 + "%";
+                particle.style.animationDuration = (8 + Math.random() * 12) + "s";
+                particle.style.animationDelay = (Math.random() * -18) + "s";
+
+                const size = (1 + Math.random() * 2.5) + "px";
+                particle.style.width = size;
+                particle.style.height = size;
+
+                particlesContainer.appendChild(particle);
+            }
+        }
+    </script>
+
+</body>
+</html>
